@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  --container-height: 800px;
+  --contaier-width: 700px;
+
+  --header-height: 300px;
+  --linear-gradient-left:  #fdfcfc;
+  --linear-gradient-right:  #f0eeee;
+  --themeDotBorder: black;
+  --container-color: #eff1f5cc;
+  --header-color:  #fff;
+  --header-picture: url('/img/bg.jpg');
+  --submit-button-color: rgb(255,255,0);
+  --text-shadow-color: 1px 1px 20px rgba(0, 0, 0, 0.2);
+
+
+  --section-title-color: navy;
+  --form-input-color:  black;
+  --priority-color: rgba(41, 41, 40, 0.849);
+
+  --form-background-color:  rgb(232, 240, 241);
+  --order-button-color: rgba(201, 199, 202, 0.863);
+  --button-color: black;
+  --hover-color: #fff;
+  --hover-background-color:rgba(218, 235, 238, 0.596);
+
+
+  --todo-list-color: rgb(250, 253, 253);
+  --trash-color:  rgba(8, 8, 8, 0.849);
+  --incomplete-color:  rgba(7, 7, 7, 0.849);
+
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', monospace;
+}
+html {
+  font-size: 20px;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    var(--linear-gradient-left),
+    var(--linear-gradient-right)
+  );
+}
+
+#theme-options-container, #progress, h5{
+  display:flex;
+  margin-right: 20px;
+  justify-content:center;
+}
+
+h5{
+color: var(--header-color);
+font-weight: 500;
+}
+
+#progress{
+  margin-top:20px;
+}
+
+.theme-dot{
+	height: 30px;
+	width: 30px;
+	background-color: black;
+	border-radius: 50%;
+
+	margin: 5px;
+	border:2px solid var(--themeDotBorder);
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+	cursor: pointer;
+}
+
+
+.theme-dot:hover{
+	border-width: 5px;
+}
+
+
+#light-mode{
+	background-color: #fff;
+}
+
+#blue-mode{
+	background-color:  #04274b;
+}
+
+#green-mode{
+	background-color: #85b174;
+}
+
+#purple-mode{
+	background-color: rgba(197, 164, 219, 0.849);
+}
+
+.container {
+  background-color: var(--container-color);
+  width: var(--contaier-width);
+  height: var(--container-height);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+header {
+  width: 100%;
+  height: var(--header-height);
+  background-image: var(--header-picture);
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--header-color);
+  border-radius: 5px 5px 0 0;
+}
+.new-todo {
+  width: 100%;
+  height: 50px;
+  padding: 0.25rem 0;
+}
+.new-todo form {
+  display: flex;
+  align-items: center;
+}
+.new-todo form input{
+  flex: 1;
+  height: 40px;
+  margin-left: 8px;
+  border: none;
+  border-right: 0px;
+  outline: transparent;
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--form-input-color);
+  background-color: var(--form-background-color);
+}
+
+
+.new-todo form button {
+  width: 100px;
+  height: 80x;
+  font-size: 1rem;
+  background-color: transparent;
+  color: var(--submit-button-color);
+  border: none;
+  border-left: 0px;
+  cursor: pointer;
+}
+.new-todo form button:hover {
+  text-shadow: var(--text-shadow-color);
+}
+
+.section{
+  margin-bottom: 10px;
+  margin: 16px;
+  color:var(--priority-color)
+
+}
+
+.section-title{
+ color:var(--section-title-color);
+}
+
+button {
+  border-radius: 5px;
+  background-color: var(--order-button-color);
+  border-color: transparent;
+  padding: 16 px;
+}
+
+
+button {
+  background: none;
+  border: 0;
+  background-color: var(--order-button-color);
+  color: var(--button-color);
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 8px ;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--hover-color);
+  background-color: var(--hover-background-color);
+}
+
+
+#todos-list {
+  height: calc(var(--container-height) - var(--header-height));
+  background-color: var(--todo-list-color);
+  padding: 0.5rem;
+  border: 1px solid rgb(219, 219, 219);
+  overflow: scroll;
+  border-radius: 0 0 5px 5px;
+}
+
+#todos-list .todo {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: 5px;
+}
+
+#todos-list .todo:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#todos-list .todo * {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+#todos-list .todo i {
+  font-size: 0.9rem;
+}
+
+#todos-list .todo p {
+  flex: 1;
+  word-break: break-all;
+}
+.checked {
+  text-decoration: line-through;
+}
+
+#todos-list .todo .bi-trash {
+  color: var(--trash-color);
+  margin: 0;
+}
+
+.notification {
+  position: absolute;
+
+  width: calc(3 * var(--contaier-width) / 4);
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0.9;
+
+  border-radius: 8px;
+  background-color: rgb(233, 81, 81);
+  top: 10px;
+  right: calc(-3 * var(--contaier-width) / 4);
+  color: #fff;
+  transition: 300ms right ease-in-out;
+}
+
+.notif-enter {
+  right: 10px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.incomplete{
+  color: var(--incomplete-color);
+}
+
+input {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+

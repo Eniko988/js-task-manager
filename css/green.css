@@ -1,0 +1,32 @@
+:root {
+    --container-height: 800px;
+    --contaier-width: 700px;
+  
+    --header-height: 300px;
+    --linear-gradient-left:  #7aa580;
+    --linear-gradient-right:   #cce2d3;
+    --themeDotBorder: #fff;
+    --container-color: #84cfacd0;
+    --header-color:  #fff;
+    --header-picture: url('/img/aurora1.jpg');
+    --submit-button-color: rgb(255,255,0);
+    --text-shadow-color: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  
+  
+    --section-title-color: rgb(255, 255, 255);
+    --form-input-color:  black;
+    --priority-color: rgba(41, 41, 40, 0.849);
+  
+    --form-background-color:  rgb(232, 241, 236);
+    --order-button-color: rgba(57, 161, 90, 0.863);
+    --button-color: rgb(238, 229, 229);
+    --hover-color: rgb(10, 10, 10);
+    --hover-background-color:rgba(218, 235, 238, 0.596);
+  
+  
+    --todo-list-color: rgb(250, 253, 253);
+    --trash-color:  rgba(35, 163, 19, 0.849);
+    --incomplete-color:  rgba(71, 179, 67, 0.849);
+  
+  
+  }

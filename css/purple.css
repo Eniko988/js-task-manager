@@ -1,0 +1,32 @@
+
+:root {
+  --container-height: 800px;
+  --contaier-width: 700px;
+
+  --header-height: 300px;
+  --linear-gradient-left: #3c173dcc;
+  --linear-gradient-right:  #a65ca8cc;
+  --themeDotBorder: black;
+  --container-color: #926194cc;
+  --header-color:  #fff;
+  --header-picture: url('/img/purple1.jpg');
+  --submit-button-color:rgb(255,255,0);
+
+  --section-title-color:#fff;
+  --form-input-color:  black;
+  --priority-color: rgba(209, 154, 235, 0.863);
+
+  --form-background-color:  rgb(232, 240, 241);
+  --order-button-color: rgba(209, 154, 235, 0.863);
+  --button-color: black;
+  --hover-color: #fff;
+  --hover-background-color:rgba(218, 235, 238, 0.596);
+
+
+  --todo-list-color: rgb(232, 240, 241);
+  --trash-color:  rgba(122, 23, 235, 0.849);
+  --incomplete-color:  rgba(64, 9, 126, 0.849);
+
+
+}
+

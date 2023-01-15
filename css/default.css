@@ -11,7 +11,7 @@
   --container-color: #eff1f5cc;
   --header-color: black;
   --section-color: rgb(218, 208, 208);
-  --header-picture: url('../image/bg.jpg');
+  --header-picture: url('/image/bg.jpg');
   --submit-button-color: rgb(255,255,0);
   --text-shadow-color: 1px 1px 20px rgba(0, 0, 0, 0.2);
 

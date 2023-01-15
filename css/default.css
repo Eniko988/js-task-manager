@@ -122,7 +122,7 @@ font-weight: 500;
 
 header {
   width: 100%;
-  height: var(--header-height);
+  height: 40px;
   background-image: var(--header-picture);
   background-size: cover;
   border-radius: 5px 5px 0 0;

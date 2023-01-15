@@ -1,9 +1,9 @@
 
 :root {
-    --container-height: 800px;
-    --contaier-width: 700px;
+    --container-height: 600px;
+    --contaier-width: 600px;
   
-    --header-height: 300px;
+    --header-height: 250px;
     --linear-gradient-left:   #213950;
     --linear-gradient-right:   #467db1;
     --themeDotBorder: #fff;

@@ -9,7 +9,7 @@
   --themeDotBorder: black;
   --container-color: #926194cc;
   --header-color:  #fff;
-  --header-picture: url('/image/purple1.jpg');
+  --header-picture: url('./image/purple1.jpg');
   --submit-button-color:rgb(255,255,0);
 
   --section-title-color:#fff;

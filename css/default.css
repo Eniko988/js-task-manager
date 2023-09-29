@@ -5,13 +5,12 @@
   --contaier-width: 600px;
 
   --header-height: 250px;
-  --linear-gradient-left:  #fdfcfc;
-  --linear-gradient-right:  #f0eeee;
+  --bg-color: #F2E0C9;
   --themeDotBorder: black;
-  --container-color: #eff1f5cc;
+  --container-color:#D9C3B0;
   --header-color: black;
   --section-color: rgb(218, 208, 208);
-  --header-picture: url('/image/bg.jpg');
+  --header-picture: url('/image/sand.jpg');
   --submit-button-color: rgb(255,255,0);
   --text-shadow-color: 1px 1px 20px rgba(0, 0, 0, 0.2);
 
@@ -30,8 +29,6 @@
   --todo-list-color: rgb(250, 253, 253);
   --trash-color:  rgba(8, 8, 8, 0.849);
   --incomplete-color:  rgba(7, 7, 7, 0.849);
-
-
 }
 
 * {
@@ -51,11 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-    to right,
-    var(--linear-gradient-left),
-    var(--linear-gradient-right)
-  );
+  background:var(--bg-color);
 }
 
 #theme-options-container, #progress, h5{
@@ -96,11 +89,11 @@ font-weight: 500;
 
 
 #light-mode{
-	background-color: #fff;
+	background-color: #F2EADF;
 }
 
 #blue-mode{
-	background-color:  #04274b;
+	background-color:  #006EA6;
 }
 
 #green-mode{

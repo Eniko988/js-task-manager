@@ -2,7 +2,6 @@ import { calculateRandomColor } from "./calculator.js";
 import { todos } from "./script.js";
 import { showNotification } from "./warnings.js";
 
-
 export const saveTodo = () => {
     const todoInput = document.getElementById("newtodo");
     const todoValue = todoInput.value;

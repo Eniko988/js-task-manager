@@ -4,12 +4,11 @@
   --contaier-width: 600px;
 
   --header-height: 250px;
-  --linear-gradient-left: #3c173dcc;
-  --linear-gradient-right:  #a65ca8cc;
+  --bg-color:#DABCDA;
   --themeDotBorder: black;
-  --container-color: #926194cc;
+  --container-color:#A470A3;
   --header-color:  #fff;
-  --header-picture: url('/image/purple1.jpg');
+  --header-picture: url('/image/purple.jpg');
   --submit-button-color:rgb(255,255,0);
 
   --section-title-color:#fff;

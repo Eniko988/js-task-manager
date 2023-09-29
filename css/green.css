@@ -3,12 +3,11 @@
     --contaier-width: 600px;
   
     --header-height: 250px;
-    --linear-gradient-left:  #7aa580;
-    --linear-gradient-right:   #cce2d3;
+    --bg-color:#AED9A3;
     --themeDotBorder: #fff;
-    --container-color: #84cfacd0;
+    --container-color: #83B37F;
     --header-color:  #fff;
-    --header-picture: url('/image/aurora1.jpg');
+    --header-picture: url('/image/grass1.jpg');
     --submit-button-color: rgb(255,255,0);
     --text-shadow-color: 1px 1px 20px rgba(0, 0, 0, 0.2);
   
